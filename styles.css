@@ -114,3 +114,69 @@ h2 {
     margin: 20px;
     margin-top: -15px;
 }
+
+.quote-wrapper {
+    background-color: #E5E7EB;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937
+}
+
+.quote-author {
+    font-weight: 900;
+    align-self: flex-end;
+}
+
+.bottom-signup {
+    margin: 100px;
+}
+
+.bottom-signup-container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+h3 {
+    color: #E5E7EB;
+    padding: 0px;
+    margin: 0px;
+}
+
+.bottom-signup-text {
+    color: #E5E7EB;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sign-up.second {
+    border: 2px solid #E5E7EB;
+}
+
+.footer-wrapper {
+    background-color: #1F2937;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    justify-content: center;
+    font-size: 18px;
+    color: #E5E7EB;
+}
